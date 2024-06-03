@@ -33,7 +33,7 @@ jobs:
         run: npm run build
 
   deploy:
-    needs: build
+    needs: [build, avoid_redundancy]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
