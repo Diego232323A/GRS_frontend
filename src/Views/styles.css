@@ -1,0 +1,41 @@
+/* Estilos para los campos de entrada */
+input[type="text"] {
+    width: 200px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #bd2130;
+}
+button.edit {
+    background-color: #33a207;
+}
+
+button.edit:hover {
+    background-color: #318809;
+}
